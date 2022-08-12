@@ -48,92 +48,93 @@
     <main>
       <section id="about">
         <h2>About</h2>
-        <div class="about-wrapper">
-          <div>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
-              sapiente vel tenetur, ipsum molestias animi voluptas impedit
-              eveniet tempore ea sequi cupiditate corrupti, molestiae nulla,
-              repellendus accusamus aut doloremque adipisci.
-            </p>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
-              sapiente vel tenetur, ipsum molestias animi voluptas impedit
-              eveniet tempore ea sequi cupiditate corrupti, molestiae nulla,
-              repellendus accusamus aut doloremque adipisci.
-            </p>
+        <div class="row">
+          <div class="section-wrapper">
+            <div class="about-paragraph-wrapper">
+              <p class="paragraph">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
+                sapiente vel tenetur, ipsum molestias animi voluptas impedit
+                eveniet tempore ea sequi cupiditate corrupti, molestiae nulla,
+                repellendus accusamus aut doloremque adipisci.
+              </p>
+              <p class="paragraph">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
+                sapiente vel tenetur, ipsum molestias animi voluptas impedit
+                eveniet tempore ea sequi cupiditate corrupti, molestiae nulla,
+                repellendus accusamus aut doloremque adipisci.
+              </p>
+            </div>
+            <figure class="paragraph-figure">
+              <img src="./HTML Practise Assets/about.jpg" alt="" />
+            </figure>
           </div>
-          <figure>
-            <img src="./HTML Practise Assets/about.jpg" alt="" />
-          </figure>
         </div>
       </section>
       <section id="discord">
-        <h2>Discord</h2>
-        <figure>
-          <img src="./HTML Practise Assets/discord.png" alt="discord" />
-        </figure>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-            deleniti molestiae quis nostrum expedita laboriosam nulla nobis
-            sequi illum modi. Architecto debitis iste optio porro, vel placeat.
-            Eaque, maxime perferendis!
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-            deleniti molestiae quis nostrum expedita laboriosam nulla nobis
-            sequi illum modi. Architecto debitis iste optio porro, vel placeat.
-            Eaque, maxime perferendis!
-          </p>
+        <div class="discord-heading">
+          <h2>Discord</h2>
+        </div>
+        <div class="row">
+          <div class="section-wrapper">
+            <figure class="paragraph-figure">
+              <img src="./HTML Practise Assets/discord.png" alt="discord" />
+            </figure>
+            <div class="about-paragraph-wrapper">
+              <p class="paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                deleniti molestiae quis nostrum expedita laboriosam nulla nobis
+                sequi illum modi. Architecto debitis iste optio porro, vel
+                placeat. Eaque, maxime perferendis!
+              </p>
+              <p class="paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                deleniti molestiae quis nostrum expedita laboriosam nulla nobis
+                sequi illum modi. Architecto debitis iste optio porro, vel
+                placeat. Eaque, maxime perferendis!
+              </p>
+            </div>
+          </div>
         </div>
       </section>
       <section id="contact">
         <h2>Contact</h2>
         <form action="#">
-          <div>
-            <label for="email">Email</label>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="123@example.com"
-              required
-            />
-          </div>
-          <div>
-            <label for="message">Message</label>
-            <textarea
-              name="message"
-              id="message"
-              cols="30"
-              rows="10"
-              placeholder="Hi, nice website!"
-              required
-            ></textarea>
-          </div>
-          <div>
-            <button>Submit</button>
-          </div>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="123@example.com"
+            required
+          />
+          <label for="message">Message</label>
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Hi, nice website!"
+            required
+          ></textarea>
+          <button>Contact us!</button>
         </form>
       </section>
     </main>
     <footer>
-      <img src="./HTML Practise Assets/FES.svg" alt="Frontend simplified" />
-      <ul>
-        <li>
-          <a href="#about">About</a>
-        </li>
-        <li>
-          <a href="#discord">Discord</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
-        <li>
-          <a href="#courses">Courses</a>
-        </li>
-      </ul>
+      <img
+        class="footer-logo"
+        src="./HTML Practise Assets/FES.svg"
+        alt="Frontend simplified"
+      />
+      <div class="footer-links">
+        <a class="footer-link" href="#about">About</a>
+
+        <a class="footer-link" href="#discord">Discord</a>
+
+        <a class="footer-link" href="#contact">Contact</a>
+
+        <a class="footer-link" href="#courses">Courses</a>
+      </div>
       <p>Lorem ipsum dolor sit amet.</p>
     </footer>
   </body>

@@ -68,10 +68,12 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
 }
 
 #about {
   padding: 48px 0;
+  background-color: #f8ffdc;
 }
 
 h2 {
@@ -80,8 +82,75 @@ h2 {
   margin-bottom: 24px;
 }
 
-.about-wrapper {
+.section-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.about-paragraph-wrapper {
+  width: 60%;
+  padding: 0 24px;
+  
+}
+
+.paragraph {
+  margin-bottom: 24px;
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+.paragraph-figure {
+  width: 40%;
+  padding: 0 24px;
+}
+
+img {
+  width: 100%;
+}
+
+#discord {
+  padding: 48px 0;
+  background-color: #cefeff;
+}
+
+#contact {
+  padding: 48px 24px;
+  background-color: #dce9ff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+
+}
+
+input, textarea {
+  margin-bottom: 24px;
+  font-size: 20px;
+  padding: 6px 12px;
+}
+
+footer {
+  background-color: #aaf5ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 24px;
+}
+
+.footer-logo {
+  max-width: 480px;
+  margin-bottom: 16px;
+}
+
+.footer-links {
+  margin-bottom: 32px;
+}
+
+.footer-link {
+  padding: 0 16px;
 }
