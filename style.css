@@ -91,7 +91,6 @@ h2 {
 .about-paragraph-wrapper {
   width: 60%;
   padding: 0 24px;
-  
 }
 
 .paragraph {
@@ -125,10 +124,10 @@ form {
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
-
 }
 
-input, textarea {
+input,
+textarea {
   margin-bottom: 24px;
   font-size: 20px;
   padding: 6px 12px;
@@ -153,4 +152,76 @@ footer {
 
 .footer-link {
   padding: 0 16px;
+}
+
+@media (max-width: 720px) {
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  header {
+    height: auto;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .header_wrapper {
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 60px;
+  }
+
+  .p-header {
+    text-align: center;
+    font-size: 28px;
+  }
+
+  .p-b {
+    max-width: 240px;
+  }
+
+  .nav-ul {
+    display: none;
+  }
+
+  .section-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-paragraph-wrapper {
+    width: 100%;
+  }
+
+  .paragraph-figure {
+    width: 100%;
+  }
+
+  #discord .section-wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .footer-link {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+
+
 }
